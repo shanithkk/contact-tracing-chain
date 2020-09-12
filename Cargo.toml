@@ -1,0 +1,10 @@
+[profile.release]
+panic = 'unwind'
+
+[workspace]
+members = [
+    'node',
+    'pallets/exchangable-id',
+    'pallets/contact-tracing',
+    'runtime',
+]
